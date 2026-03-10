@@ -1,6 +1,8 @@
+package Lanchonete;
+
 public class Lanche {
-    String nome;
-    double preco;
+    public String nome;
+    public double preco;
 
     public Lanche(String nome, double preco) {
         this.nome= nome;

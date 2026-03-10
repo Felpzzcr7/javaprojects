@@ -1,3 +1,5 @@
+import Produto.Produto;
+
 void main() {
 
  Produto p1 = new Produto("banana", 1.76f, 10);

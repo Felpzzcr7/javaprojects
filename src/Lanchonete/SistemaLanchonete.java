@@ -1,3 +1,5 @@
+package Lanchonete;
+
 public class SistemaLanchonete {
 
     public static void main(String[] args) {

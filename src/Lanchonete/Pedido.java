@@ -1,7 +1,9 @@
+package Lanchonete;
+
 public class Pedido {
     Cliente cliente;
     Lanche lanche;
-    int quantidade;
+    public int quantidade;
 
     public int getQuantidade() {
         return quantidade;
@@ -21,8 +23,8 @@ public class Pedido {
    }
 
    public void mostrarPedido(){
-       System.out.println("Cliente: " + cliente.nome);
-       System.out.println("Lanche: " + lanche.nome);
+       System.out.println("Lanchonete.Cliente: " + cliente.nome);
+       System.out.println("Lanchonete.Lanche: " + lanche.nome);
        System.out.println("Preço: " + lanche.preco);
        System.out.println("Quantidade: " + quantidade);
        System.out.println("Total: " + calcularTotal());
