@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package trycatch;
+
+/**
+ *
+ * @author CG3040224
+ */
+public class Conta {
+    int saldo;
+    
+    public void sacar(){
+        
+    
+    }    
+    
+    public void depositar(){
+        
+    }
+}
